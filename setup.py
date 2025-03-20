@@ -7,7 +7,7 @@ setup(
     install_requires=["click"],
     entry_points={
         "console_scripts": [
-            "ez-commit=ez_commit.ezcommit:test",
+            "ez-commit=ez_commit.ezcommit:main",
         ],
     },
     classifiers=[
