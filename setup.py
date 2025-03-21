@@ -4,7 +4,7 @@ setup(
     name="ez-commit",
     version="0.1",
     packages=find_packages(),
-    install_requires=["click"],
+    install_requires=["click", "ollama"],
     entry_points={
         "console_scripts": [
             "ez-commit=ez_commit.ezcommit:main",
