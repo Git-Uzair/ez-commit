@@ -175,9 +175,7 @@ def commit_changes(commit_message):
 @click.command()
 def main():
     """Entry point for the CLI tool.
-
-    This function initializes and runs the command-line interface (CLI) built with Click.
-    It acts as the primary entry point where different commands are defined and executed.
+    Initializes and runs the command-line interface (CLI).
 
     Usage:
     This function is typically invoked when the CLI tool is executed from the command line.
