@@ -34,3 +34,6 @@ Refactor: Improved code redeability (y/n) |
 - Implement chat history to enable model to give more commit message suggestions if the first one wasn't chosen
 - Use Langchain to have more control over message templates
 ## Feedback
+- Tinker with context sizes to reduce hallucinations on larger input
+- Smaller models require pretty explicit system messages, spend time fine tuning that
+- 
